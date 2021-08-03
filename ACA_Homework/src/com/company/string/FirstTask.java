@@ -24,7 +24,7 @@ import java.util.Scanner;
 
 public class FirstTask {
 
-    public static void sumOfLengths() {
+    public static void displayTask() {
 
         Scanner sc = new Scanner(System.in);
         System.out.println("Please enter the words: ");
