@@ -20,7 +20,8 @@ public final class Car {
         this.productionYear = productionYear;
         this.model = model;
         this.mark = mark;
-        this.engine = engine;
+        Engine engine1 = new Engine(engine.getHorsePower(), engine.getWeight(), engine.getMileage());
+        this.engine = engine1;
     }
 
 
@@ -38,7 +39,7 @@ public final class Car {
 
     public Engine getEngine() {
 
-      return engine;
+        return engine;
     }
 
 }
